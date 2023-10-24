@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Irreal Cerámica</title>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Sitio web de Ceramica Irreal">
+        <meta name="keywords" content="ceramica, pottery, spanish">
+        <meta name="robots" content="index,follow,archive">
+        <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="expires" content="0">
+        <meta name="author" content="Paula Dimilta">
+        <meta name="copyright" content="Paula Dimilta (c) 2023">
+    </head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Contacto</a>
+    </nav>
+
+    <main class="contenedor">
+        <br>
+        <h1>Formulario de Contacto</h1>
+       
+        <div class="formulario">
+            <style>
+                .formulario {
+                    margin: 0 auto;
+                  background-color: #a7b381;
+                  border-radius: 8px;
+                  padding: 20px;
+                  width: auto;
+                  height: 156px;
+                  display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+                  
+                
+              </style>
+                <form class="formulario" id="formularioContacto" action="procesar_formulario.php" method="post">
+                    <label for="nombre">  <p> Nombre:</p> </label>
+                    <input class="formulario__campo" type="text" id="nombre" name="nombre" required>
+            
+                    <label for="email"><p> Email:</p> </label>
+                    <input class="formulario__campo" type="email" id="email" name="email" required>
+            
+                    <label for="mensaje"><p> Mensaje:</p> </label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+                    <input class="formulario__submit" type="Submit" value="Enviar">
+                </form>
+         
+     
+            <script src="validacion.js"></script>
+
+            <style>
+                .formulario__campo {
+                  margin: 0 auto;
+                 margin: 0px;
+                  border-width: 8px;
+                  background-color: #ffffff;
+                  border-radius: 8px;
+                  
+                }
+              </style>
+              <style>
+                .formulario__submit {
+                    border-width: 8px;
+                   border-radius: 8px;
+                  
+                }
+                .formulario__submit:hover {
+                    background-color: #a7b381;
+                  }
+              </style>
+              
+      
+    </main>
+    <section class="contenedor comprar">
+        <h2 class="comprar__titulo">¿Porque comprar con nosotros?</h2>
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_1.png" alt="porque comprar">
+                <h3 class="bloque_titulo">Entrega segura del producto</h3>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin porta pretium felis, ac semper nulla pellentesque sed. Morbi condimentum mauris orci. In blandit et dolor vel consequat. Cras urna odio, euismod sit amet mauris a, varius dignissim neque. 
+                </p>
+            </div>
+
+            <div class="bloque">
+                <img class="bloque__imagen"  src="img/icono_2.png" alt="porque comprar">
+                <h3 class="bloque_titulo">Hecho a mano</h3>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin porta pretium felis, ac semper nulla pellentesque sed. Morbi condimentum mauris orci. In blandit et dolor vel consequat. Cras urna odio, euismod sit amet mauris a, varius dignissim neque. 
+                </p>
+            </div>
+
+            <div class="bloque">
+                <img class="bloque__imagen"  src="img/icono_3.png" alt="porque comprar">
+                <h3 class="bloque_titulo">Calíficanos</h3>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin porta pretium felis, ac semper nulla pellentesque sed. Morbi condimentum mauris orci. In blandit et dolor vel consequat. Cras urna odio, euismod sit amet mauris a, varius dignissim neque. 
+                </p>
+            </div>
+
+            <div class="bloque">
+                <img class="bloque__imagen"  src="img/icono_4.png" alt="porque comprar">
+                <h3 class="bloque_titulo">Envío a la puerta de tu casa</h3>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin porta pretium felis, ac semper nulla pellentesque sed. Morbi condimentum mauris orci. In blandit et dolor vel consequat. Cras urna odio, euismod sit amet mauris a, varius dignissim neque. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">Parcial Practica profesionalizante 1</p> 
+            <p class="footer__texto">Paula Dimilta © año 2023 </p>     
+        </footer>
+</body>
+   
+</body>
+</html>
+
+
+
+   
+
+    
